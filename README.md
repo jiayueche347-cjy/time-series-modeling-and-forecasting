@@ -201,9 +201,9 @@ The analysis fits a global linear trend model and evaluates forecasts using:
 
 Exponentially decreasing weights are used to give greater importance to recent observations:
 
-\[
+$$
 w_t = \lambda^{N-t}
-\]
+$$
 
 Different values of the forgetting factor λ are compared to investigate how strongly the model should respond to recent observations.
 
